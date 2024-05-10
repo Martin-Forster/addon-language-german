@@ -281,7 +281,7 @@ return array(
     "file_manager"              => "Log Dateien verwalten",
     "file_manager_desc"         => "Below you can download or delete the logs that are stored by the system during operation, they can be used for debugging purposes. The log files are automatically cycled, storing only up to the latest 5 days of entries.",
     "app_logs"                  => "Anwendungs Logs",
-    "app_logs_desc"             => "All warnings and errors from general usage of the help desk are logged here. You may be asked to provide one or more of these logs when requesting support.",
+    "app_logs_desc"             => "Alle Warnungen und Fehler des Helpdesks werden hier protokolliert. Bei einer Supportanfrage werden Sie möglicherweise gebeten, diese Protokolle bereitzustellen.",
     "email_logs"                => "Email Logs",
     "email_logs_desc"           => "Details about incoming emails are stored in these files when they are being parsed and imported as tickets.",
 
@@ -291,7 +291,7 @@ return array(
     "reply_to"                  => "Antworten an",
     "and_number_others"         => "and  :number other|and :number others",
     "user_templates"            => "Benutzervorlagen",
-    "operator_templates"        => "Operator Templates",
+    "operator_templates"        => "Operator Vorlagen",
 
     /*
      * 2.2.0
@@ -306,8 +306,8 @@ return array(
     "system_overview"           => "System Übersicht",
     "getting_started"           => "Getting Started",
     "operator_notes"            => "Operator Notizen",
-    "simpleauth_operators_desc" => "Allow operators to log in and out with SimpleAuth, we recommend to keep this disabled unless you are specifically using it for this purpose.",
-    "upgrade_and_reactivate"    => "Upgrade & Reactivate",
+    "simpleauth_operators_desc" => "Operators erlauben sich mit SimpleAuth an- und abzumelden. Wir empfehlen dies deaktiviert zu lassen. Außer verwenden es speziell für diesen Zweck.",
+    "upgrade_and_reactivate"    => "Upgrade & Rekativieren",
     "upgrade_pending"           => "Upgrade Pending",
     "locale_in_uri"             => "Include Locale in URI",
     "locale_in_uri_desc"        => "Disable to remove the locale from the URI, for example: http://support.mycompany.com/en/announcements becomes http://support.mycompany.com/announcements. Can only be disabled when there's one enabled language in the system.",
@@ -348,12 +348,12 @@ return array(
     "prune_tickets"             => "Inactive tickets can be automatically pruned. A ticket is considered inactive if it is resolved and has not had any activity for a given amount of time.",
     "prune_organisations"       => "Inactive organisations can be automatically pruned. An organisation is considered inactive if it has no users linked with it and has not had any activity for a given amount of time.",
     "prune_export"              => "User data exports are stored on the file system but may take up room, you can prune export files generated before a certain date.",
-    "automatically_prune"       => "Automatically delete",
-    "days_after_saved"          => "Records after",
-    "days_after_last_activity"  => "Inactive records after",
-    "record_permanent_delete"   => "The records will be permanently deleted. This will impact reports.",
-    "record_delete_relations"   => "The records will be permanently deleted along with the following related data: :relations. This will impact reports.",
-    "manually_prune"            => "Manually delete records created before",
+    "automatically_prune"       => "Automatisch löschen",
+    "days_after_saved"          => "Einträge nach",
+    "days_after_last_activity"  => "Inaktive Einträge nach",
+    "record_permanent_delete"   => "Die Einträge werden permanent gelöscht. Das hat beinflusst die Reports.",
+    "record_delete_relations"   => "Die Einträge werden permanent gelöscht zusamen mit den in  folgenden Beziehungen stehende Daten: :relations.",
+    "manually_prune"            => "Manuelles löschen von Einträgen die erstellt wurden bevor",
 
     /*
      * 2.4.0
@@ -479,11 +479,11 @@ return array(
     "add_user"                  => "Neuen Benutzer hinzufügen",
     "open_ticket"               => "Neues Ticket eröffnen",
     "reply_ticket"              => "Auf Ticket antworten",
-    "new_version_available"     => "New Version Available",
-    "new_version_desc"          => "A new version of SupportPal has been released, we always recommend to keep your installation up to date.<div class='description'>Acknowledging this notice will hide it until a newer version is released.</div>",
+    "new_version_available"     => "Neue Version ist verfügbar",
+    "new_version_desc"          => "Eine neue Version von supportpal wurde veröffentlicht, wir empfehlen immer den Einsatz der aktuellsten Versioun.<div class='description'>Das bestätigen versteckt diese Meldung bis zur nächsten Version.</div>",
     "acknowledge"               => "Zur Kenntnis genommen",
-    "running_latest_version"    => "You are running the latest version.",
-    "running_prerelease"        => "You are running a prerelease version.",
+    "running_latest_version"    => "Sie haben die neueste Version.",
+    "running_prerelease"        => "Sie haben eine Vorschauversion.",
 
     /*
      * 3.6.0
@@ -510,8 +510,8 @@ return array(
     /*
      * 3.7.0
      */
-    "background_jobs"           => "Background Jobs",
-    "background_jobs_not_processing" => "Background jobs are not currently being processed, view <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'>troubleshooting steps</a>.",
+    "background_jobs"           => "Hintergrund Jobs",
+    "background_jobs_not_processing" => "Hintergrund Jobs werden zur Zeit nicht ausgeführt, lesen Sie  <a target='_blank' href='https://docs.supportpal.com/current/Background+Jobs#Troubleshooting'> um das Problem zu lösen</a>.",
 
     /*
      * 4.0.0
@@ -593,30 +593,30 @@ return array(
     /*
      * 4.2.0
      */
-    "keyboard_shortcuts"        => "Keyboard Shortcuts",
-    "enable_keyboard_shortcuts" => "Enable keyboard shortcuts",
-    "shortcut_global"           => "Global shortcuts",
+    "keyboard_shortcuts"        => "Tastenkombinationen",
+    "enable_keyboard_shortcuts" => "Aktivieren von Tastenkombinationen",
+    "shortcut_global"           => "Globale Tastenkombinationen",
     "shortcut_toggle"           => "Toggle the keyboard shortcuts dialog",
-    "shortcut_start_search"     => "Start search",
-    "shortcut_goto_new_ticket"  => "Go to the open new ticket page",
-    "shortcut_ticket_view"      => "Ticket view shortcuts",
-    "shortcut_focus_reply"      => "Focus the reply form",
-    "shortcut_focus_notes"      => "Focus the notes form",
-    "shortcut_focus_forward"    => "Focus the forward form",
-    "shortcut_toggle_user_tab"  => "Toggle the user details tab in the sidebar",
-    "shortcut_take_ticket"      => "Take ticket",
-    "shortcut_close_ticket"     => "Close ticket",
-    "shortcut_lock_ticket"      => "Close & lock ticket",
-    "shortcut_unlock_ticket"    => "Unlock ticket",
-    "shortcut_trash_ticket"     => "Move ticket to trash",
-    "shortcut_block_user"       => "Block user and move ticket to trash",
-    "shortcut_watch_ticket"     => "Watch ticket",
-    "shortcut_unwatch_ticket"   => "Unwatch ticket",
-    "shortcut_merge_ticket"     => "Merge ticket",
-    "shortcut_unmerge_ticket"   => "Unmerge ticket",
-    "shortcut_expand_all"       => "Expand all messages",
-    "shortcut_collapse_all"     => "Collapse all messages",
-    "shortcut_print_ticket"     => "Print ticket details and messages",
+    "shortcut_start_search"     => "Suche starten",
+    "shortcut_goto_new_ticket"  => "Springe zum neuen Ticket formular.",
+    "shortcut_ticket_view"      => "Ticket Ansicht shortcuts",
+    "shortcut_focus_reply"      => "Focus auf das Antwortformular",
+    "shortcut_focus_notes"      => "Focus auf das Notizformular",
+    "shortcut_focus_forward"    => "Focus auf das Weiterleitenformular",
+    "shortcut_toggle_user_tab"  => "Schalte die Benutzeransicht um in der Sidebar",
+    "shortcut_take_ticket"      => "Nimm Ticket",
+    "shortcut_close_ticket"     => "Schließe Ticket",
+    "shortcut_lock_ticket"      => "Schließe % Sperre Ticket",
+    "shortcut_unlock_ticket"    => "Ensperre Ticket",
+    "shortcut_trash_ticket"     => "Ticket in Papierkorb",
+    "shortcut_block_user"       => "Sperre Benutzer & Ticket in Papierkorb",
+    "shortcut_watch_ticket"     => "Beobachte Ticket",
+    "shortcut_unwatch_ticket"   => "Beobachte Ticket nicht mehr",
+    "shortcut_merge_ticket"     => "Zusammenführen von Tickets",
+    "shortcut_unmerge_ticket"   => "Trennen von Tickets",
+    "shortcut_expand_all"       => "Ausklappen aller Nachrichten",
+    "shortcut_collapse_all"     => "Einklappen aller Nachrichten",
+    "shortcut_print_ticket"     => "Drucke Ticket Details und Nachrichten",
 
     /*
      * 4.3.0

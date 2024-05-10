@@ -62,5 +62,5 @@ return array(
     /*
      * 3.3.0
      */
-    "encrypted_value"           => "** ENCRYPTED **",
+    "encrypted_value"           => "** VERSCHLÜSSELT **",
 );

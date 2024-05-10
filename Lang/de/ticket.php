@@ -546,10 +546,11 @@ return array(
      * 5.0.0
      */
     "also_viewing"              => "<strong>:name</strong> betrachtet auch das Tiket.",
-    "mark_as_read"              => "Mark as Read",
-    "mark_as_unread"            => "Mark as Unread",
-    "sla_targets"               => "SLA Target|SLA Targets",
+    "mark_as_read"              => "Markiere als Gelesen",
+    "mark_as_unread"            => "Markiere als Ungelesen",
+    "sla_targets"               => "SLA Ziele|SLA Ziele",
     "sla_targets_desc"          => "Set target times that a ticket must be responded to by and resolved by per priority. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
+    "sla_targets_desc"          => "Setze die Fristen wann ein Ticket beantwortet und gelöscht werden muß nach Priorität. The time will be counted only during business hours based on the schedule(s) chosen, decimal values can be used. Leave value blank to not set a target for that priority.",
     "first_reply_time"          => "First Reply Time",
     "next_reply_time"           => "Next Reply Time",
     "resolution_time"           => "Lösungszeiten",

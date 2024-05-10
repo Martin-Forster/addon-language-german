@@ -23,17 +23,17 @@ return array(
     /*
      * 5.0.0
      */
-    "update_custom_field"   => "Custom field updated",
-    "operator_draft"        => "Operator draft updated",
-    "update_cc"             => "CC email addresses updated",
-    "update_due_time"       => "Due time updated",
-    "update_sla_plan"       => "SLA plan updated",
-    "update_locked"         => "Ticket locked",
-    "update_unlocked"       => "Ticket unlocked",
+    "update_custom_field"   => "Benutzerdefiniertes Feld aktualisiert.",
+    "operator_draft"        => "Operator Entwurf aktualisiert",
+    "update_cc"             => "CC Email Addressen aktualisiert",
+    "update_due_time"       => "Ablaufzeit aktualisiert",
+    "update_sla_plan"       => "SLA plan aktualisiert",
+    "update_locked"         => "Ticket gesperrt",
+    "update_unlocked"       => "Ticket ensperrt",
 
     /*
      * 5.1.0
      */
-    "update_message"        => "Message updated",
+    "update_message"        => "Nachricht aktualisiert",
 
 );

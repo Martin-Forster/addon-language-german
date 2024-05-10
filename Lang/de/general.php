@@ -407,26 +407,26 @@ return array(
     "updating"                  => "Updating...",
     "cancelling"                => "Cancelling...",
     "ok"                        => "OK",
-    "mark_as_verified"          => "Mark as Verified",
-    "not_verified"              => "Not Verified",
-    "free"                      => "Free",
-    "commercial"                => "Commercial",
-    "purchase"                  => "Purchase",
-    "more_information"          => "More Information",
+    "mark_as_verified"          => "Markieren als Geprüft",
+    "not_verified"              => "Nicht geprüft",
+    "free"                      => "Frei",
+    "commercial"                => "Geschäftlich",
+    "purchase"                  => "Kaufen",
+    "more_information"          => "Mehr Informationen",
     "details"                   => "Details",
 
     /*
      * 4.1.0
      */
-    "merge"                     => "Merge",
+    "merge"                     => "Zusammenführen",
 
     /*
      * 5.0.0
      */
-    "invited"                   => "Invited",
-    "apply"                     => "Apply",
-    "opened"                    => "Opened",
-    "week"                      => "Week|Weeks",
+    "invited"                   => "Eingeladen",
+    "apply"                     => "Anwenden",
+    "opened"                    => "Geöffnet",
+    "week"                      => "Woche|Wochen",
     "quarter"                   => "Quarter|Quarters",
 
 );

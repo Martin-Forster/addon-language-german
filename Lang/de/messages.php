@@ -149,23 +149,23 @@ return array(
      * 3.0.0
      */
     "popup_blocked"         => "Den Browser blockiert Popups. Bitte erlauben sie Popups um das Vorschau Feature nutzen zu können.",
-    "error_editing_message" => "There was an error while trying to edit this message.",
+    "error_editing_message" => "Ein Fehler passierte beim Editieren der Nachricht.",
 
     /*
      * 4.1.1
      */
-    "brand_not_enabled"     => "This action cannot be performed as the brand is not enabled.",
-    "cannot_reply_to_internal" => "A user cannot reply to an internal ticket.",
+    "brand_not_enabled"     => "Diese Aktion kann nicht ausgeführt werden, da die Marke nicht Aktiviert ist..",
+    "cannot_reply_to_internal" => "Ein Benutzer kann nicht auf ein internes Ticket antworten.",
 
     /*
      * 4.3.0
      */
-    "show_all_results"      => "Show all results &raquo;",
+    "show_all_results"      => "Zeige alle Ergebnissen &raquo;",
 
     /*
      * 5.0.0
      */
     "lock_timeout"          => "Lock Timeout",
-    "lock_timeout_desc"     => "The server is currently busy processing other requests. Please try again.",
+    "lock_timeout_desc"     => "Der Server ist zurzeit ausgelasstet, bitte versuchen sie es später erneut.",
 
 );

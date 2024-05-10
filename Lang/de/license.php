@@ -25,27 +25,27 @@ return array(
     /*
      * 2.1.0
      */
-    "server_response"   => "Server Response",
-    "need_to_reissue"   => "You may need to <strong>reissue</strong> the license at our <a href='http://www.supportpal.com/manage/' target='_blank'>client area</a>.",
+    "server_response"   => "Server Antwort",
+    "need_to_reissue"   => "Möglicherweise müssen sie die Lizenz <strong>neu ausstellen</strong> in unserem <a href='http://www.supportpal.com/manage/' target='_blank'>Kundenbereich</a>.",
 
     /*
      * 2.2.0
      */
-    "enter_new_key"     => "Enter New License Key",
+    "enter_new_key"     => "Neuen Lizenzschlüssel eingeben",
 
     /*
      * 2.3.1
      */
-    "license_valid"     => "License Valid!",
+    "license_valid"     => "Lizenz Gültig!",
 
     /*
      * 2.4.1
      */
-    "multi_ip_support"  => "Consider enabling <a href=':href' target='_blank'>Multi-IP support</a> in the client area to define additional IP addresses.",
+    "multi_ip_support"  => "Berücksichtigen Sie  <a href=':href' target='_blank'>Multi-IP support</a> im Kundenbereich um zusätzliche IP Addressen zu konfigurieren.",
 
     /*
      * 4.0.0
      */
-    "unlicensed"        => "Unlicensed",
+    "unlicensed"        => "Nicht Lizensiert",
 
 );

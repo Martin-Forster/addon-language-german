@@ -72,15 +72,15 @@ return array(
     /*
      * 5.0.0
      */
-    "increase_resolve_due_time" => "Increase resolution due time",
-    "increase_reply_due_time"   => "Increase reply due time",
-    "reduce_resolve_due_time"   => "Reduce resolution due time",
-    "reduce_reply_due_time"     => "Reduce reply due time",
-    "set_resolve_due_time"      => "Set resolution due time",
-    "set_reply_due_time"        => "Set reply due time",
-    "clear_resolve_due_time"    => "Clear resolution due time",
-    "clear_reply_due_time"      => "Clear reply due time",
-    "pause_due_times"           => "Pause due times",
-    "unpause_due_times"         => "Unpause due times",
+    "increase_resolve_due_time" => "Verlängern des Lösungszeitfensters",
+    "increase_reply_due_time"   => "Verlängern des Antwortzeitfensters",
+    "reduce_resolve_due_time"   => "Reduzieren des Lösungzeitfensters",
+    "reduce_reply_due_time"     => "Reduzieren des Antwortzeitfensters",
+    "set_resolve_due_time"      => "Setzen des Lösungszeitfensters",
+    "set_reply_due_time"        => "Setzen des Antwortszeitfensters",
+    "clear_resolve_due_time"    => "Löschen des Lösungszeitfensters",
+    "clear_reply_due_time"      => "Löschen des Antwortzeitfensters",
+    "pause_due_times"           => "Pausieren der Zeitfenster",
+    "unpause_due_times"         => "Pause der Zeitfenster beenden",
 
 );

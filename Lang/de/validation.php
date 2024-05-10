@@ -166,19 +166,19 @@ return array(
     /*
      * 3.5.0
      */
-    "phone"                     => "The supplied phone number is invalid.",
+    "phone"                     => "Die angegebene Telefonnummer ist ungültig",
 
     /*
      * 4.3.0
      */
-    "is_invalid"                => "The :attribute is invalid.",
+    "is_invalid"                => ":attribute ist ungültig.",
 
     /*
      * 5.0.0
      */
-    "current_password"           => "The password is incorrect.",
-    "department_email_per_brand" => "An email account must exist for each brand assigned to this department.",
-    "department_has_a_priority"  => "Department(s) :departments are public and must be assigned to at least one priority.",
+    "current_password"           => "Das Passwort ist falsch.",
+    "department_email_per_brand" => "Für jede Marke muss eine Emailaddresse in der Abteilung existieren.",
+    "department_has_a_priority"  => "Abteilung(en) :departments sind öffentlich und müssen zumindest einer Priorität zugewiesen haben.",
 
     /*
     |--------------------------------------------------------------------------

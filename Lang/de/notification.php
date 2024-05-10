@@ -24,7 +24,7 @@ return array(
     /*
      * 4.2.0
      */
-    "new_mention"           => "New Mention",
-    "new_mention_text"      => ":name mentioned you in ticket #<a href=':route'>:number</a>.",
+    "new_mention"           => "Neue Erwähnung",
+    "new_mention_text"      => ":name erwähnt in Ihrem Ticket #<a href=':route'>:number</a>.",
 
 );
